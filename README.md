@@ -4,6 +4,8 @@ Commentator Wordpress Plugin
 After a long time offline, I’ve decided to make commentator plugin open
 source and it’s released under MIT License ;)
 
+Please try the [demo](http://yukulelix.com/commentator/commentator-demo-post/) ;)
+
 ## Plugin Features
 
 * **NEW v1.6 :** UserPro – Compatible with UserPro
