@@ -1,0 +1,557 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Commentator v1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-01-03 01:56:33+0000\n"
+"Last-Translator: yukulelix <felix.bayart@wanadoo.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: commentator.php:0
+#: commentator.php:1131
+#@ commentator
+msgid "Commentator"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: commentator.php:0
+#@ commentator
+msgid "Yukulelix"
+msgstr ""
+
+#: commentator.php:15
+#@ commentator
+msgid "This page cannot be called directly."
+msgstr "Cette page ne peut pas être appelée directement"
+
+#: commentator.php:45
+#@ commentator
+msgid "Commentator Commenter"
+msgstr "Commentateur Commentator"
+
+#: commentator.php:101
+#@ commentator
+msgid "User name should not be empty."
+msgstr "Le nom d'utilisateur ne devrait pas être vide"
+
+#: commentator.php:105
+#@ commentator
+msgid "The email is empty or invalid."
+msgstr "L'email est vide ou invalide."
+
+#: commentator.php:128
+#: commentator.php:292
+#@ commentator
+msgid "From"
+msgstr "De"
+
+#: commentator.php:129
+#: commentator.php:130
+#@ commentator
+msgid "Registration successful"
+msgstr "L'inscription s'est effectuée avec succès"
+
+#: commentator.php:130
+#@ commentator
+msgid "Your login details"
+msgstr "Vos identifiants"
+
+#: commentator.php:130
+#@ commentator
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: commentator.php:130
+#: php/commentator-template.php:180
+#: php/commentator-template.php:250
+#@ commentator
+msgid "Password"
+msgstr "Mot de passe"
+
+#: commentator.php:135
+#@ commentator
+msgid "Registration successful, check your email for your password"
+msgstr "L'inscription s'est effectuée avec succès, relevez vos emails pour avoir votre mot de passe"
+
+#: commentator.php:217
+#@ commentator
+msgid "the post doesn't exist"
+msgstr "Cet article n'existe pas"
+
+#: commentator.php:221
+#: commentator.php:271
+#@ commentator
+msgid "you are not logged in !"
+msgstr "Vous n'êtes pas identifié !"
+
+#: commentator.php:690
+#@ commentator
+msgid "you are not logged in"
+msgstr "Vous n'êtes pas identifié."
+
+#: commentator.php:694
+#@ commentator
+msgid "the comment you wan't to vote doesn't exist"
+msgstr "Le commentaire que vous voulez noter n'existe pas."
+
+#: commentator.php:886
+#, php-format
+#@ commentator
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: commentator.php:909
+#@ commentator
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire attend la modération."
+
+#: commentator.php:927
+#@ commentator
+msgid "Vote up"
+msgstr "Voter pour"
+
+#: commentator.php:931
+#@ commentator
+msgid "Vote down"
+msgstr "Voter contre"
+
+#: commentator.php:955
+#@ commentator
+msgid "Reply"
+msgstr "Répondre"
+
+#: commentator.php:1131
+#@ commentator
+msgid "Overview for the Commentator Plugin"
+msgstr "Préférences du plugin Commentator"
+
+#: commentator.php:1249
+#@ commentator
+msgid "Max Threaded Comments Depth (default : 3)"
+msgstr "Niveau maximum des commentaires imbriqués (par défaut : 3)"
+
+#: commentator.php:1396
+#@ commentator
+msgid "Icon and color for thread voting"
+msgstr "Icône et couleur pour le \\\"like\\\" des discussions"
+
+#: commentator.php:1397
+#@ commentator
+msgid "Icon for thread voted"
+msgstr "Icône pour indiquer que la discussion a été votée"
+
+#: commentator.php:1398
+#@ commentator
+msgid "Color when the thread is voted"
+msgstr "Couleur quand la discussion est votée"
+
+#: commentator.php:1399
+#@ commentator
+msgid "Icon for comment button"
+msgstr "Icône pour le bouton d'envoi du commentaire"
+
+#: commentator.php:1400
+#@ commentator
+msgid "Icon for comment upvote"
+msgstr "Icône pour le vote en faveur d'un commentaire"
+
+#: commentator.php:1401
+#@ commentator
+msgid "Icon for comment downvote"
+msgstr "Icône pour le vote contre un commentaire"
+
+#: commentator.php:1403
+#@ commentator
+msgid "Icon for comment reply"
+msgstr "Icône pour la réponse aux commentaires"
+
+#: commentator.php:1404
+#@ commentator
+msgid "Icon for comment register"
+msgstr "Icône pour la registration"
+
+#: commentator.php:1405
+#@ commentator
+msgid "Icon for comment login"
+msgstr "Icône pour l'identification"
+
+#: commentator.php:1439
+#@ commentator
+msgid "Choose an icon"
+msgstr "Choisir un icône"
+
+#: php/commentator-template.php:87
+#, php-format
+#@ commentator
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] "Un commentaire"
+msgstr[1] "%1$s commentaires"
+
+#: php/commentator-template.php:94
+#@ commentator
+msgid "Star this discussion"
+msgstr "Liker cette discussion"
+
+#: php/commentator-template.php:115
+#@ commentator
+msgid "Join the discussion..."
+msgstr "Se joindre à la discussion..."
+
+#: php/commentator-template.php:120
+#: php/commentator-template.php:179
+#: php/commentator-template.php:245
+#@ commentator
+msgid "Name"
+msgstr "Nom"
+
+#: php/commentator-template.php:123
+#: php/commentator-template.php:246
+#@ commentator
+msgid "Email"
+msgstr "Email"
+
+#: php/commentator-template.php:126
+#@ commentator
+msgid "Website"
+msgstr "Site internet"
+
+#: commentator.php:1212
+#@ commentator
+msgid "Best"
+msgstr "Meilleurs"
+
+#: commentator.php:1211
+#@ commentator
+msgid "Newest"
+msgstr "Plus récents"
+
+#: commentator.php:1210
+#@ commentator
+msgid "Oldest"
+msgstr "Plus anciens"
+
+#: php/commentator-template.php:162
+#@ commentator
+msgid "Hello,"
+msgstr "Bonjour,"
+
+#: php/commentator-template.php:175
+#@ commentator
+msgid "Login"
+msgstr "S'identifier"
+
+#: php/commentator-template.php:183
+#@ commentator
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: php/commentator-template.php:241
+#@ commentator
+msgid "Register"
+msgstr "S'inscrire"
+
+#: php/commentator-template.php:321
+#@ commentator
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: commentator.php:551
+#@ default
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+#: commentator.php:625
+#@ default
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: commentator.php:632
+#@ default
+msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
+msgstr ""
+
+#: commentator.php:634
+#@ default
+msgid "<strong>ERROR</strong>: please enter a valid email address."
+msgstr ""
+
+#: commentator.php:638
+#@ default
+msgid "<strong>ERROR</strong>: please type a comment."
+msgstr ""
+
+#: commentator.php:1007
+#@ commentator
+msgid "Upvotes"
+msgstr "Votes en faveur"
+
+#: commentator.php:1008
+#@ commentator
+msgid "Downvotes"
+msgstr "Votes en défaveur"
+
+#: commentator.php:1253
+#@ commentator
+msgid "Anybody can register ?"
+msgstr "Tout le monde peut s'inscrire ?"
+
+#: commentator.php:1281
+#@ commentator
+msgid "Section of content before the commenting section"
+msgstr "Section de contenu placée avant les commentaires"
+
+#: commentator.php:487
+#@ default
+msgid "Error: please try again!"
+msgstr ""
+
+#: commentator.php:488
+#@ default
+msgid "Original error message: "
+msgstr ""
+
+#: commentator.php:498
+#@ default
+msgid "Congratulations !"
+msgstr ""
+
+#: commentator.php:499
+#@ default
+msgid "You can now join the conversation !"
+msgstr ""
+
+#: php/commentator-template.php:71
+#@ commentator
+msgid "guest"
+msgstr "invité"
+
+#. translators: plugin header field 'PluginURI'
+#: commentator.php:0
+#@ commentator
+msgid "http://codecanyon.net/item/commentator-wordpress-plugin/6425752"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: commentator.php:0
+#@ commentator
+msgid "Commentator Wordpress Plugin is a fully featured ajaxified comments system for your wordpress website that let you easily supercharge your discussions."
+msgstr "Commentator Wordpress Plugin est un système de commentaire complet pour cotre site wordpress qui rend vos discussions beaucoup plus interactives."
+
+#. translators: plugin header field 'AuthorURI'
+#: commentator.php:0
+#@ commentator
+msgid "http://codecanyon.net/user/yukulelix"
+msgstr ""
+
+#: commentator.php:1265
+#@ commentator
+msgid "Disable login tab ?"
+msgstr "Désactiver le login"
+
+#: commentator.php:1277
+#@ commentator
+msgid "Disable thread votes ?"
+msgstr "Désactiver le vote sur les discussions"
+
+#: commentator.php:1387
+#@ commentator
+msgid "Font Family"
+msgstr "Famille de la police"
+
+#: commentator.php:1290
+#@ commentator
+msgid "Disable avatars ?"
+msgstr "Désactiver les avatars ?"
+
+#: commentator.php:1411
+#@ commentator
+msgid "Enable Social Signin ?"
+msgstr "Activer le signin social ?"
+
+#: php/commentator-template.php:193
+#@ default
+msgid "Or use one of these social networks"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: commentator.php:0
+#@ commentator
+msgid "1.3"
+msgstr ""
+
+#: commentator.php:1225
+#@ commentator
+msgid "General"
+msgstr "Général"
+
+#: commentator.php:1231
+#@ commentator
+msgid "Style"
+msgstr "Style"
+
+#: commentator.php:1234
+#@ commentator
+msgid "Social"
+msgstr "Social"
+
+#: commentator.php:1237
+#@ commentator
+msgid "Advanced"
+msgstr "Avancé"
+
+#: commentator.php:1424
+#@ commentator
+msgid "I load my scripts myself from my CDN"
+msgstr "Je charge mes scripts seul grace à un CDN"
+
+#: php/commentator-template.php:170
+#@ commentator
+msgid "Logout"
+msgstr "Deconnexion"
+
+#: commentator.php:1300
+#@ commentator
+msgid "Order and Disable Tabs ?"
+msgstr "Ordonner et désactiver des tabs"
+
+#: commentator.php:1302
+#@ commentator
+msgid "Enabled Tabs"
+msgstr "Tabs actives"
+
+#: commentator.php:1319
+#@ commentator
+msgid "Disabled Tabs"
+msgstr "Tabs inactives"
+
+#: commentator.php:110
+#@ commentator
+msgid "You need to chose a password."
+msgstr "Vous devez choisir un mot de passe"
+
+#: commentator.php:275
+#@ commentator
+msgid "Flagging is not allowed !"
+msgstr "Vous ne pouvez pas signaler de commentaire !"
+
+#: commentator.php:293
+#@ commentator
+msgid "New Comment Flagging"
+msgstr "Nouveau signalement de commentaire"
+
+#: commentator.php:295
+#@ commentator
+msgid "A new comment has been flagged on "
+msgstr "Un nouveau commentaire a été signalé sur "
+
+#: commentator.php:297
+#@ commentator
+msgid "Number of flags : "
+msgstr "Nombre de signalement : "
+
+#: commentator.php:301
+#@ commentator
+msgid "Go to your wordpress admin to see it"
+msgstr "Allez voir votre dashboard pour le voir"
+
+#: commentator.php:306
+#@ commentator
+msgid "The comment has been flagged"
+msgstr "Ce commentaire a été signalé"
+
+#: commentator.php:613
+#@ commentator
+msgid "Sorry, your user role doesn't allow you to comment."
+msgstr "Désolé, votre role d'utilisateur ne vous permet pas de commenter."
+
+#: commentator.php:916
+#@ commentator
+msgid "This comment has been flagged"
+msgstr "Ce commentaire a été signalé"
+
+#: commentator.php:941
+#@ commentator
+msgid "Flag comment"
+msgstr "Signaler le commentaire"
+
+#: commentator.php:1009
+#@ commentator
+msgid "Flags"
+msgstr "Signalements"
+
+#: commentator.php:1261
+#@ commentator
+msgid "Chose your password when registering ?"
+msgstr "Choisir son mot de passe à l'inscription ?"
+
+#: commentator.php:1269
+#@ commentator
+msgid "Enable comment flagging ?"
+msgstr "Autoriser le signalement des commentaires ?"
+
+#: commentator.php:1273
+#@ commentator
+msgid "From how many flags untill a comment gets unapproved (leave blank for no automation)"
+msgstr "À partir de combien de signalement un commentaire devient non visible (laisser blanc pour ne pas activer l'automatisme)"
+
+#: commentator.php:1336
+#@ commentator
+msgid "Disable commenting abilities to some user roles ?"
+msgstr "Supprimer la possibilité de commenter à certains roles ?"
+
+#: commentator.php:1383
+#@ commentator
+msgid "Google Font Api Key"
+msgstr "Google Font Api Key"
+
+#: commentator.php:861
+#@ commentator
+msgid "author"
+msgstr "auteur"
+
+#: commentator.php:873
+#, php-format
+#@ commentator
+msgid "%1$s ago"
+msgstr "depuis %1$s"
+
+#: commentator.php:1228
+#@ commentator
+msgid "Icons"
+msgstr "Icônes"
+
+#: commentator.php:1257
+#@ commentator
+msgid "Human readable time (ago) ?"
+msgstr "Temps facile à la lecture (depuis ...)"
+
+#: commentator.php:1286
+#@ commentator
+msgid "Custom menu html"
+msgstr "Menu personnalisé"
+
+#: commentator.php:1362
+#@ commentator
+msgid "Base Theme"
+msgstr "Theme de base"
+
+#: commentator.php:1402
+#@ commentator
+msgid "Icon for comment flagging"
+msgstr "Icône pour le signalement"
+
